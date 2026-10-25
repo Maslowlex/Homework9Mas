@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+п»ї#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <locale.h>
 #include <math.h>
@@ -12,13 +12,13 @@ int main() {
     int h, b, a;
     int repeat;
     do {
-        printf("\nВведите символ из которого будет строиться фигура: ");
+        printf("\nР’РІРµРґРёС‚Рµ СЃРёРјРІРѕР» РёР· РєРѕС‚РѕСЂРѕРіРѕ Р±СѓРґРµС‚ СЃС‚СЂРѕРёС‚СЊСЃСЏ С„РёРіСѓСЂР°: ");
         scanf(" %c", &symbol);
-        printf("Введите высоту (h): ");
+        printf("Р’РІРµРґРёС‚Рµ РІС‹СЃРѕС‚Сѓ (h): ");
         scanf("%d", &h);
-        printf("Введите ширину верхнего основания (b): ");
+        printf("Р’РІРµРґРёС‚Рµ С€РёСЂРёРЅСѓ РІРµСЂС…РЅРµРіРѕ РѕСЃРЅРѕРІР°РЅРёСЏ (b): ");
         scanf("%d", &b);
-        printf("Введите угол наклона (a) (например, 1 или 2): ");
+        printf("Р’РІРµРґРёС‚Рµ СѓРіРѕР» РЅР°РєР»РѕРЅР° (a) (РЅР°РїСЂРёРјРµСЂ, 1 РёР»Рё 2): ");
         scanf("%d", &a);
         draw_trapezoid(symbol, h, b, a);
         repeat = ask_continue();
@@ -27,9 +27,9 @@ int main() {
     return 0;
 }
 int draw_trapezoid(char symbol, int h, int b, int a) {
-    printf("\nТрапеция:\n");
+    printf("\nРўСЂР°РїРµС†РёСЏ:\n");
     if (h <= 0 || b <= 0 || a < 0) {
-        printf("Ошибка: некорректные размеры.\n");
+        printf("РћС€РёР±РєР°: РЅРµРєРѕСЂСЂРµРєС‚РЅС‹Рµ СЂР°Р·РјРµСЂС‹.\n");
         return;
     }
     for (int row = 0; row < h; row++) {
@@ -58,7 +58,7 @@ int draw_trapezoid(char symbol, int h, int b, int a) {
 }
 int ask_continue() {
     int choice;
-    printf("\nПродолжить? <Да - введите любое число, Нет - введите 0>: ");
+    printf("\nРџСЂРѕРґРѕР»Р¶РёС‚СЊ? <Р”Р° - РІРІРµРґРёС‚Рµ Р»СЋР±РѕРµ С‡РёСЃР»Рѕ, РќРµС‚ - РІРІРµРґРёС‚Рµ 0>: ");
     scanf("%d", &choice);
     return choice; 
 }
