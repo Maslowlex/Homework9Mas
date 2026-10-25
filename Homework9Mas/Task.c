@@ -26,8 +26,6 @@ int main() {
 
     return 0;
 }
-
-
 int draw_trapezoid(char symbol, int h, int b, int a) {
     printf("\nТрапеция:\n");
     if (h <= 0 || b <= 0 || a < 0) {
