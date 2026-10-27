@@ -28,17 +28,13 @@
 
 ### Блок-схема 
 
-<img width="696" height="892" alt="image" src="https://github.com/user-attachments/assets/71674ee3-6e03-4f60-aec6-a7b0314e55a0" />
-
+<img width="1286" height="1713" alt="12 drawio (1)" src="https://github.com/user-attachments/assets/5240bc0b-4743-43bb-a2de-8b4f329f6bfc" />
 
 ## 2. Реализация программы
 
 ## 3. Результат работы программы
 
-Вычисление суммы: 1/3^2 + 1/5^2 + ... + 1/(2n+1)^2
-Введите значение n: 3
-
-Сумма ряда для n = 3 равна: 0.171542
+<img width="1467" height="736" alt="image" src="https://github.com/user-attachments/assets/62393875-57b5-43c1-94b6-2f5da2b40dc7" />
 
 ## 4. Информация о разработчике
 
