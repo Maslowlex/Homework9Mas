@@ -1,7 +1,6 @@
-# Домашнее задание к работе 8 (Вариант 13)
+# Домашнее задание к работе 9 (Вариант 13)
 
 ## Условие задачи
-Написать программу, которая вычисляет сумму ряда с использованием цикла `for` для заданного значения `n`:
 <img width="830" height="160" alt="image" src="https://github.com/user-attachments/assets/3e395c18-93a2-480b-a47c-dd5177c27ff6" />
 
 <img width="787" height="148" alt="image" src="https://github.com/user-attachments/assets/3d163119-db98-476a-b15f-661a6e8ef831" />
@@ -28,17 +27,13 @@
 
 ### Блок-схема 
 
-<img width="696" height="892" alt="image" src="https://github.com/user-attachments/assets/71674ee3-6e03-4f60-aec6-a7b0314e55a0" />
-
+<img width="1286" height="1713" alt="12 drawio" src="https://github.com/user-attachments/assets/5760f44c-3ce2-493e-9553-de6cca23f313" />
 
 ## 2. Реализация программы
 
 ## 3. Результат работы программы
 
-Вычисление суммы: 1/3^2 + 1/5^2 + ... + 1/(2n+1)^2
-Введите значение n: 3
-
-Сумма ряда для n = 3 равна: 0.171542
+<img width="1467" height="736" alt="image" src="https://github.com/user-attachments/assets/62393875-57b5-43c1-94b6-2f5da2b40dc7" />
 
 ## 4. Информация о разработчике
 
