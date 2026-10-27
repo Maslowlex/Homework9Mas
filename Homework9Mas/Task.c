@@ -58,7 +58,7 @@ int draw_trapezoid(char symbol, int h, int b, int a) {
 }
 int ask_continue() {
     int choice;
-    printf("\nПродолжить? <Да - введите любое число, Нет - введите 0>: ");
+    printf("\nПродолжить? <Да - введите любой знак, Нет - введите 0>: ");
     scanf("%d", &choice);
     return choice; 
 }
