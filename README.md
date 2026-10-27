@@ -1,4 +1,4 @@
-# Домашнее задание к работе 8 (Вариант 13)
+# Домашнее задание к работе 9 (Вариант 13)
 
 ## Условие задачи
 <img width="830" height="160" alt="image" src="https://github.com/user-attachments/assets/3e395c18-93a2-480b-a47c-dd5177c27ff6" />
