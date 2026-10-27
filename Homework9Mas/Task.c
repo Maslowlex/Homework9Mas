@@ -8,8 +8,8 @@ int ask_continue();
 
 int main() {
     setlocale(LC_ALL, "RUS");
-    char symbol;
     int h, b, a;
+    char symbol;
     int repeat;
     do {
         printf("\nВведите символ из которого будет строиться фигура: ");
@@ -30,7 +30,7 @@ int draw_trapezoid(char symbol, int h, int b, int a) {
     printf("\nТрапеция:\n");
     if (h <= 0 || b <= 0 || a < 0) {
         printf("Ошибка: некорректные размеры.\n");
-        return;
+        return 0;
     }
     for (int row = 0; row < h; row++) {
         int current_width = b + row * a;
@@ -60,5 +60,7 @@ int ask_continue() {
     int choice;
     printf("\nПродолжить? <Да - введите любой знак, Нет - введите 0>: ");
     scanf("%d", &choice);
-    return choice; 
+    while (getchar() != '\n'); {
+        return choice;
+    }
 }
