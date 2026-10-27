@@ -29,12 +29,10 @@
 
 <img width="1286" height="1713" alt="12 drawio" src="https://github.com/user-attachments/assets/5760f44c-3ce2-493e-9553-de6cca23f313" />
 
-## 2. Реализация программы
-
-## 3. Результат работы программы
+## 2. Результат работы программы
 
 <img width="1467" height="736" alt="image" src="https://github.com/user-attachments/assets/62393875-57b5-43c1-94b6-2f5da2b40dc7" />
 
-## 4. Информация о разработчике
+## 3. Информация о разработчике
 
 ### Маслов Александр Евгеньевич бИЦТ-262
