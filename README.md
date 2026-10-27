@@ -28,7 +28,7 @@
 
 ### Блок-схема 
 
-<img width="1286" height="1713" alt="12 drawio (1)" src="https://github.com/user-attachments/assets/5240bc0b-4743-43bb-a2de-8b4f329f6bfc" />
+<img width="1286" height="1713" alt="12 drawio" src="https://github.com/user-attachments/assets/5760f44c-3ce2-493e-9553-de6cca23f313" />
 
 ## 2. Реализация программы
 
